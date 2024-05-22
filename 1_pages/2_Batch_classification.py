@@ -36,6 +36,3 @@ st.download_button(
 # with st.form('upload-form', clear_on_submit=True):
 #     uploaded_file = st.file_uploader("Upload your file here")
 #     submitted = st.form_submit_button("Upload")
-
-# add default files, default states
-# add logging
