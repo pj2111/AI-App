@@ -30,7 +30,7 @@ if text and classes_list:
     st_output = dict(zip(output['labels'],output['scores']))
     for i,k in st_output.items():
         # st.write(f"{i}========{k}")
-        st.progress(k, text = f"{i:_<90} {k:.2f}")
+        st.progress(k, text = f"{i:_<95} {k:.2f}")
     ## --> Home Work -- 1. Understand concept of session_state ==== 2. Apply in zeroshot ==== 3. observe feseablity for bison 
     ## --> Home Work -- Use logging
     ## --> add editable df - 
